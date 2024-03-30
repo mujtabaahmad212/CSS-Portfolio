@@ -1,0 +1,40 @@
+*{
+    background-color: rgb(50, 50, 50);
+}
+.h1{
+    color: rgb(88, 1, 249);
+}
+h1+p{
+    color: rgb(231, 165, 165);
+}
+#h2{
+    color: rgb(237, 50, 50);
+    font-size: 30px;
+}
+
+#h2>p{
+    color: rgb(252, 235, 4);
+    background-color:hsla(0, 100%, 100%,0.6 );
+}
+h3 p{
+    color: rgb(4, 252, 136);
+   background-color: rgba(228, 0, 0, 0.5);
+   border-radius: 20px;
+
+}
+h4+p{
+    color: rgb(4, 58, 252);
+    
+}
+
+h5~p{
+    color: rgb(75, 238, 0);
+    background-color: black;
+    border-radius: 30px;
+}
+
+h3,h4,h5{
+    color: #ffff
+    ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
